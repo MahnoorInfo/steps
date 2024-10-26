@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const messages = [
-  "Learn React ⚛️",
-  "Apply for jobs 💼",
-  "Invest your new income 🤑",
+  "Introduction / Problem Overview",
+  "Solution / Step by step Demo",
+  "Results / Takeaway",
 ];
 
 function Steps() {
@@ -27,7 +27,7 @@ function Steps() {
           </p>
           <div className="buttons">
             <button
-              style={{ backgroundColor: "#7950f2", color: "#fff" }}
+              style={{ backgroundColor: "#5ec4ed", color: "#fff" }}
               onClick={() => {
                 if (step > 1) setStep((s) => s - 1);
               }}
@@ -35,7 +35,7 @@ function Steps() {
               Previous
             </button>
             <button
-              style={{ backgroundColor: "#7950f2", color: "#fff" }}
+              style={{ backgroundColor: "#5ec4ed", color: "#fff" }}
               onClick={() => {
                 if (step < 3) setStep((s) => s + 1);
               }}

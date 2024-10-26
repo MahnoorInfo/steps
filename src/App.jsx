@@ -1,12 +1,12 @@
-import Steps from "./components/steps";
-import TimeTraval from "./components/timeTraval";
+import Steps from "./components/Steps";
+// import TimeTraval from "./components/timeTraval";
 
 function App() {
   return (
     <div>
       <Steps />
 
-      <TimeTraval />
+      {/* <TimeTraval /> */}
     </div>
   );
 }
